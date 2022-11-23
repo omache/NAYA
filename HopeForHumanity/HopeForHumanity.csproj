@@ -1,0 +1,515 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA5C56EB-B79B-41DE-994B-72ADA19A7FF0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HopeForHumanity</RootNamespace>
+    <AssemblyName>HopeForHumanity</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44385</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PesaPal.APIHelper.4.0">
+      <HintPath>..\..\New folder\HopeForHumanity\HopeForHumanity\bin\PesaPal.APIHelper.4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap-theme.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\campaign\animate.css" />
+    <Content Include="assets\css\campaign\animations.css" />
+    <Content Include="assets\css\campaign\fonts.css" />
+    <Content Include="assets\css\campaign\global.css" />
+    <Content Include="assets\css\campaign\grid.css" />
+    <Content Include="assets\css\campaign\normalize.css" />
+    <Content Include="assets\css\campaign\slick.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\global.css" />
+    <Content Include="assets\css\jquery-ui.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\skin.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fancybox\css\fancybox.css" />
+    <Content Include="assets\fancybox\js\custom.fancybox.js" />
+    <Content Include="assets\fancybox\js\jquery.fancybox.js" />
+    <Content Include="assets\fonts\fontawesome-webfont862f.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\lato-black-webfont.svg" />
+    <Content Include="assets\img\active.png" />
+    <Content Include="assets\img\aside-img-01.jpg" />
+    <Content Include="assets\img\aside-img-02.jpg" />
+    <Content Include="assets\img\aside-img-03.jpg" />
+    <Content Include="assets\img\bg-testimonials.jpg" />
+    <Content Include="assets\img\bitcoinqr.png" />
+    <Content Include="assets\img\blog-pic.jpg" />
+    <Content Include="assets\img\blog-pic0.jpg" />
+    <Content Include="assets\img\blog-pic1.jpg" />
+    <Content Include="assets\img\blog-pic2.jpg" />
+    <Content Include="assets\img\blog-pic3.jpg" />
+    <Content Include="assets\img\blog-pic4.jpg" />
+    <Content Include="assets\img\blog-pic5.JPG" />
+    <Content Include="assets\img\breadcrumb-bg.jpg" />
+    <Content Include="assets\img\breadcrumb-bg_old.jpg" />
+    <Content Include="assets\img\campaign\arrow.svg" />
+    <Content Include="assets\img\campaign\close.svg" />
+    <Content Include="assets\img\campaign\Colour-Riot-Hero-Image-Left.jpg" />
+    <Content Include="assets\img\campaign\Colour-Riot-Hero-Image-Right.jpg" />
+    <Content Include="assets\img\campaign\email.svg" />
+    <Content Include="assets\img\campaign\facebook.svg" />
+    <Content Include="assets\img\campaign\googleplus.svg" />
+    <Content Include="assets\img\campaign\instagram.svg" />
+    <Content Include="assets\img\campaign\linkedin.svg" />
+    <Content Include="assets\img\campaign\mf.jpg" />
+    <Content Include="assets\img\campaign\mf2.jpg" />
+    <Content Include="assets\img\campaign\Minimalist-Hero-Image-Left.jpg" />
+    <Content Include="assets\img\campaign\Minimalist-Hero-Image-Right.jpg" />
+    <Content Include="assets\img\campaign\opengraph-text.jpg" />
+    <Content Include="assets\img\campaign\pinterest.svg" />
+    <Content Include="assets\img\campaign\twitter.svg" />
+    <Content Include="assets\img\campaign\Urban-Hero-Image-Left-1.jpg" />
+    <Content Include="assets\img\campaign\Urban-Hero-Image-Right.jpg" />
+    <Content Include="assets\img\campaign\youtube.svg" />
+    <Content Include="assets\img\cause-profile-photo-2.jpg" />
+    <Content Include="assets\img\cause-profile-photo-3.jpg" />
+    <Content Include="assets\img\cause-profile-photo.jpg" />
+    <Content Include="assets\img\detail-big-01.jpg" />
+    <Content Include="assets\img\detail-big-02.jpg" />
+    <Content Include="assets\img\detail-big-03.jpg" />
+    <Content Include="assets\img\detail-big-04.jpg" />
+    <Content Include="assets\img\detail-big-05.jpg" />
+    <Content Include="assets\img\detail-big-06.jpg" />
+    <Content Include="assets\img\detail-big-07.jpg" />
+    <Content Include="assets\img\detail-big-08.jpg" />
+    <Content Include="assets\img\detail-big-09.jpg" />
+    <Content Include="assets\img\detail-med-01.jpg" />
+    <Content Include="assets\img\dotted-line.png" />
+    <Content Include="assets\img\flickr-profile-pic.jpg" />
+    <Content Include="assets\img\flickr-profile-pic1.jpg" />
+    <Content Include="assets\img\flickr-profile-pic2.jpg" />
+    <Content Include="assets\img\gallery-img.jpg" />
+    <Content Include="assets\img\get-involved.png" />
+    <Content Include="assets\img\hand.png" />
+    <Content Include="assets\img\height_light_img.jpg" />
+    <Content Include="assets\img\height_light_img_1.jpg" />
+    <Content Include="assets\img\height_light_img_2.jpg" />
+    <Content Include="assets\img\help.jpg" />
+    <Content Include="assets\img\hightlight_content.jpg" />
+    <Content Include="assets\img\hightlight_content_1.jpg" />
+    <Content Include="assets\img\hightlight_content_2.jpg" />
+    <Content Include="assets\img\icon-service-01.png" />
+    <Content Include="assets\img\icon-service-02.png" />
+    <Content Include="assets\img\icon-service-03.png" />
+    <Content Include="assets\img\icon-service-04.png" />
+    <Content Include="assets\img\icon-service-05.png" />
+    <Content Include="assets\img\icon-service-06.png" />
+    <Content Include="assets\img\icons.png" />
+    <Content Include="assets\img\img-blog-details-01.jpg" />
+    <Content Include="assets\img\img-blog-details-02.jpg" />
+    <Content Include="assets\img\img-blog-details-03.jpg" />
+    <Content Include="assets\img\img-blog-details-04.jpg" />
+    <Content Include="assets\img\img-blog-details-05.jpg" />
+    <Content Include="assets\img\img-blog-details-06.jpg" />
+    <Content Include="assets\img\img-blog-details-07.jpg" />
+    <Content Include="assets\img\img-blog-details-08.jpg" />
+    <Content Include="assets\img\img-blog-details-09.jpg" />
+    <Content Include="assets\img\img-slide-01.jpg" />
+    <Content Include="assets\img\img-slide-02.jpg" />
+    <Content Include="assets\img\img-slide-03.jpg" />
+    <Content Include="assets\img\img-slide-04.jpg" />
+    <Content Include="assets\img\img-slide-05.jpg" />
+    <Content Include="assets\img\img-slide-06.jpg" />
+    <Content Include="assets\img\img-slide-07.jpg" />
+    <Content Include="assets\img\img-testimonial.jpg" />
+    <Content Include="assets\img\img_container-cyclist.jpg" />
+    <Content Include="assets\img\img_container-life.jpg" />
+    <Content Include="assets\img\img_container-runner.jpg" />
+    <Content Include="assets\img\img_container.jpg" />
+    <Content Include="assets\img\inactive.png" />
+    <Content Include="assets\img\launch-bg.jpg" />
+    <Content Include="assets\img\launch-logo.png" />
+    <Content Include="assets\img\logo-second.png" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\logo_old.png" />
+    <Content Include="assets\img\news-blog-pic.jpg" />
+    <Content Include="assets\img\news-blog-pic2.jpg" />
+    <Content Include="assets\img\our-cause-pic.jpg" />
+    <Content Include="assets\img\parallax-banner-02.jpg" />
+    <Content Include="assets\img\payment-bitcoin-banner.png" />
+    <Content Include="assets\img\payment-failed-cross.png" />
+    <Content Include="assets\img\payment-success-banner.jpg" />
+    <Content Include="assets\img\paypal.jpg" />
+    <Content Include="assets\img\Paypal_Donate.png" />
+    <Content Include="assets\img\portfolio.jpg" />
+    <Content Include="assets\img\portfolio1.jpg" />
+    <Content Include="assets\img\portfolio2.jpg" />
+    <Content Include="assets\img\portfolio3.jpg" />
+    <Content Include="assets\img\profile-pic-01.jpg" />
+    <Content Include="assets\img\profile-pic-02.jpg" />
+    <Content Include="assets\img\profile-pic-03.jpg" />
+    <Content Include="assets\img\profile-pic-04.jpg" />
+    <Content Include="assets\img\profile-pic-05.jpg" />
+    <Content Include="assets\img\profile-pic-06.jpg" />
+    <Content Include="assets\img\profile-pic-07.jpg" />
+    <Content Include="assets\img\profile-pic-08.jpg" />
+    <Content Include="assets\img\profile-pic-09.jpg" />
+    <Content Include="assets\img\profile-pic-10.jpg" />
+    <Content Include="assets\img\profile-pic-11.jpg" />
+    <Content Include="assets\img\profile-pic-12.jpg" />
+    <Content Include="assets\img\profile-pic-13.jpg" />
+    <Content Include="assets\img\profile-pic-14.jpg" />
+    <Content Include="assets\img\profile-pic.jpg" />
+    <Content Include="assets\img\progress-bg.png" />
+    <Content Include="assets\img\save-lives.jpg" />
+    <Content Include="assets\img\second-page-slider.jpg" />
+    <Content Include="assets\img\shopping-img1.png" />
+    <Content Include="assets\img\shopping-thumb-img1.jpg" />
+    <Content Include="assets\img\slide-banner-01.jpg" />
+    <Content Include="assets\img\slide-banner-02.jpg" />
+    <Content Include="assets\img\slide-banner-03.jpg" />
+    <Content Include="assets\img\slide-banner-05.jpg" />
+    <Content Include="assets\img\team-member1.jpg" />
+    <Content Include="assets\img\team-member2.jpg" />
+    <Content Include="assets\img\team-member3.jpg" />
+    <Content Include="assets\img\team-member4.jpg" />
+    <Content Include="assets\img\video-frame.jpg" />
+    <Content Include="assets\img\video-frame2.jpg" />
+    <Content Include="assets\img\video-frame3.jpg" />
+    <Content Include="assets\img\video-pic.jpg" />
+    <Content Include="assets\img\video-pic2.jpg" />
+    <Content Include="assets\img\volunteer.jpg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\campaign\global.js" />
+    <Content Include="assets\js\campaign\jquery.min.js" />
+    <Content Include="assets\js\campaign\logic.js" />
+    <Content Include="assets\js\campaign\mto6npd.js" />
+    <Content Include="assets\js\campaign\slick.min.js" />
+    <Content Include="assets\js\campaign\wow.min.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\gtag.js" />
+    <Content Include="assets\js\jquery-1.12.4.js" />
+    <Content Include="assets\js\jquery-ui.js" />
+    <Content Include="assets\js\jquery.cookie.js" />
+    <Content Include="assets\js\jquery.countdown.js" />
+    <Content Include="assets\js\jquery.easing.min.js" />
+    <Content Include="assets\js\jquery.flexslider.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.plugin.js" />
+    <Content Include="assets\js\jquery.ui.touch-punch.min.js" />
+    <Content Include="assets\js\site.js" />
+    <Content Include="assets\js\style-switcher\assets\js\style.switcher.js" />
+    <Content Include="assets\revolution-slider\css\settings.css" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrowleft.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrowright.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrow_left.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrow_left2.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrow_right.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\arrow_right2.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\boxed_bgtile.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\bullet.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\bullets.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\bullets2.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\bullet_boxed.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\coloredbg.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\gridtile.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\gridtile_3x3.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\gridtile_3x3_white.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\gridtile_white.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\large_left.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\large_right.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\loader.gif" />
+    <Content Include="assets\revolution-slider\img\rev-img\navigdots.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\navigdots_bgtile.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\shadow1.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\shadow2.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\shadow3.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\small_left.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\small_left_boxed.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\small_right.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\small_right_boxed.png" />
+    <Content Include="assets\revolution-slider\img\rev-img\timer.png" />
+    <Content Include="assets\revolution-slider\js\jquery.themepunch.plugins.min.js" />
+    <Content Include="assets\revolution-slider\js\jquery.themepunch.revolution.js" />
+    <Content Include="assets\svg\calendar.svg" />
+    <Content Include="assets\svg\heart-thanks.svg" />
+    <Content Include="assets\svg\heart.svg" />
+    <Content Include="assets\svg\location.svg" />
+    <Content Include="assets\svg\megaphone.svg" />
+    <Content Include="assets\svg\timer.svg" />
+    <Content Include="assets\svg\user.svg" />
+    <Content Include="Blog.aspx" />
+    <Content Include="BlogDetails.aspx" />
+    <Content Include="Campaign.html" />
+    <Content Include="CauseDetails.aspx" />
+    <Content Include="Causes.aspx" />
+    <Content Include="Contactus.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error404.aspx" />
+    <Content Include="EventDetails.aspx" />
+    <Content Include="Events.aspx" />
+    <Content Include="Faq.aspx" />
+    <Content Include="favico.ico" />
+    <Content Include="Launch.aspx" />
+    <Content Include="Ourmission.aspx" />
+    <Content Include="Ourstory.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="PaymentBitcoin.aspx" />
+    <Content Include="PaymentFail.aspx" />
+    <Content Include="PaymentSuccess.aspx" />
+    <Content Include="Volunteer.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogDetails.aspx.cs">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogDetails.aspx.designer.cs">
+      <DependentUpon>BlogDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CauseDetails.aspx.cs">
+      <DependentUpon>CauseDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CauseDetails.aspx.designer.cs">
+      <DependentUpon>CauseDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Causes.aspx.cs">
+      <DependentUpon>Causes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Causes.aspx.designer.cs">
+      <DependentUpon>Causes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error404.aspx.cs">
+      <DependentUpon>Error404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error404.aspx.designer.cs">
+      <DependentUpon>Error404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventDetails.aspx.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventDetails.aspx.designer.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faq.aspx.cs">
+      <DependentUpon>Faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Faq.aspx.designer.cs">
+      <DependentUpon>Faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global\clsEncrypt.cs" />
+    <Compile Include="Global\Database.cs" />
+    <Compile Include="Global\EncDec.cs" />
+    <Compile Include="Global\GlobalClass.cs" />
+    <Compile Include="Launch.aspx.cs">
+      <DependentUpon>Launch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Launch.aspx.designer.cs">
+      <DependentUpon>Launch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ourmission.aspx.cs">
+      <DependentUpon>Ourmission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ourmission.aspx.designer.cs">
+      <DependentUpon>Ourmission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ourstory.aspx.cs">
+      <DependentUpon>Ourstory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ourstory.aspx.designer.cs">
+      <DependentUpon>Ourstory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentBitcoin.aspx.cs">
+      <DependentUpon>PaymentBitcoin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentBitcoin.aspx.designer.cs">
+      <DependentUpon>PaymentBitcoin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentFail.aspx.cs">
+      <DependentUpon>PaymentFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentFail.aspx.designer.cs">
+      <DependentUpon>PaymentFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSuccess.aspx.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentSuccess.aspx.designer.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Volunteer.aspx.cs">
+      <DependentUpon>Volunteer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Volunteer.aspx.designer.cs">
+      <DependentUpon>Volunteer.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\fontawesome-webfont862f.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont862f.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont862f.woff" />
+    <Content Include="assets\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="assets\fonts\lato-black-webfont.eot" />
+    <Content Include="assets\fonts\lato-black-webfont.ttf" />
+    <Content Include="assets\fonts\lato-black-webfont.woff" />
+    <Content Include="assets\fonts\lato-black-webfontd41d.eot" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Errors\" />
+    <Folder Include="MobileLogs\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58844</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44385/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:44385/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
