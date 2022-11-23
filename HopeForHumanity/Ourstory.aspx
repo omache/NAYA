@@ -237,7 +237,7 @@
                                                 <img src="assets/img/team-member1.jpg" alt="" />
                                             </figure>
                                             <div class="caption">
-                                                <h3>James Kerr</h3>
+                                                <h3>Ernest Mukiri</h3>
                                                 <ul class="social-icons">
                                                     <li>
                                                         <a href="https://www.facebook.com/profile.php?id=100023681619977" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -285,7 +285,7 @@
                                                 <img src="assets/img/team-member3.jpg" alt="" />
                                             </figure>
                                             <div class="caption">
-                                                <h3>Tom Young</h3>
+                                                <h3>Allan Erissat</h3>
                                                 <ul class="social-icons">
                                                     <li>
                                                         <a href="https://www.facebook.com/profile.php?id=100023704566525" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -309,7 +309,7 @@
                                                 <img src="assets/img/team-member4.jpg" alt="" />
                                             </figure>
                                             <div class="caption">
-                                                <h3>Ella Raynor</h3>
+                                                <h3>Renox Omache</h3>
                                                 <ul class="social-icons">
                                                     <li>
                                                         <a href="https://www.facebook.com/ella.raynor.71" target="_blank"><i class="fa fa-facebook"></i></a>

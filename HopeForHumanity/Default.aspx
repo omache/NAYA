@@ -570,7 +570,7 @@
                             <div class="col-xs-12">
                                 <span>&copy; Copyright
                                     <script>document.write(new Date().getFullYear())</script>
-                                    , All Rights Reserved by Hope For Humanity Foundation.
+                                    , All Rights Reserved by Nakury Youth Alliance Foundation.
                                 </span>
                             </div>
                         </div>
