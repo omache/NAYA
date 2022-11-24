@@ -74,7 +74,7 @@
 	line-height: 1.8;
 }
 .tp-caption .btn.btn-default {
-	font-size: 14px;
+	font-size: 15px;
 	padding: 12px 31px;
 }
 .banner-section.btn-link:hover {
@@ -143,7 +143,7 @@
  1.2)Our Causes Section
  ----------------------------------------*/
 .our-causes {
-	background: #fff;
+	background: #f0ffff;
 }
 .our-causes .article-list {
 	text-align: center;
@@ -255,7 +255,7 @@
 	min-width: 48px;
 	height: 30px;
 	line-height: 30px;
-	background: #FFA52C;
+	background: #FFD23C;
 	color: #26211d;
 	text-align: center;
 	position: absolute;
@@ -294,7 +294,7 @@
 .help-list .media h3 {
 	color: #26211d;
 	font-weight: 700;
-	margin-bottom: 14px;
+	margin-bottom: 15px;
 	font-size: 18px;
 }
 .help-list .media h3 a {
@@ -585,7 +585,7 @@ main-slider .tp-caption .btn.btn-default {
 	margin-top: 0;
 }
 .media-content {
-	border: 1px solid #f2ede9;
+	border: 1px solid #f0ffff;
 	padding: 43px 27px;
 	background: #fff;
 	overflow: hidden;
@@ -709,7 +709,7 @@ main-slider .tp-caption .btn.btn-default {
 	height: 104px;
 }
 .news-section  .media .btn {
-	margin-top: 14px;
+	margin-top: 15px;
 	padding: 10px 23px
 }
 .news-section .items {
@@ -813,7 +813,7 @@ main-slider .tp-caption .btn.btn-default {
 .our-causes3 .items {
 	width: 99.5%;
 	margin: 0 auto;
-	background-color: #f2ede9;
+	background-color: #f0ffff;
 }
 .our-causes3 .item-content {
 	padding: 35px 35px 40px;
@@ -837,7 +837,7 @@ main-slider .tp-caption .btn.btn-default {
  3.3) How To Help Section
  ----------------------------------------*/
 .help-people {
-	padding: 14px 0 12px;
+	padding: 15px 0 12px;
 }
 .help-people h2 {
 	font-weight: 300;
@@ -1051,7 +1051,7 @@ main-slider .tp-caption .btn.btn-default {
 	margin-bottom: 12px;
 }
 .blog h2 {
-	margin-bottom: 14px;
+	margin-bottom: 15px;
 	font-weight: 300;
 }
 .blog h3 {
@@ -1127,7 +1127,7 @@ main-slider .tp-caption .btn.btn-default {
 	padding: 22px 7% 18px;
 	position: relative;
 	margin-bottom: 36px;
-	background: #FF8F00;
+	background: #FFD23C;
 }
 .blog-alert a {
 	color: #26211d;
@@ -1155,7 +1155,7 @@ main-slider .tp-caption .btn.btn-default {
 }
 
 .callout {
-	border-left: 4px solid #FFA52C;
+	border-left: 4px solid #FFD23C;
 	margin: 0 0 36px;
 	padding: 20px 28px;
 	font-size: 18px;
@@ -1208,7 +1208,7 @@ main-slider .tp-caption .btn.btn-default {
 	margin-top: -12px;
 }
 .profile-block {
-	background: #f2ede9;
+	background: #f0ffff;
 	padding: 18px 3.2% 28px;
 	margin-bottom: 49px;
 }
@@ -1238,7 +1238,7 @@ main-slider .tp-caption .btn.btn-default {
 	float: none;
 }
 .comment .social-icons a {
-	font-size: 14px;
+	font-size: 15px;
 	color: #7f7d77;
 }
 
@@ -1264,7 +1264,7 @@ main-slider .tp-caption .btn.btn-default {
 .reply-form label {
 	margin-bottom: 5px;
 	color: #727272;
-	font-size: 14px;
+	font-size: 15px;
 }
 .reply-form .form-group {
 	margin-bottom: 27px;
@@ -1355,7 +1355,7 @@ main-slider .tp-caption .btn.btn-default {
 	font-size: 0;
 	width: 30px;
 	height: 30px;
-	background: #FFA52C;
+	background: #FFD23C;
 	border-radius: 100%;
 	display: block;
 	position: absolute;
@@ -1427,14 +1427,14 @@ main-slider .tp-caption .btn.btn-default {
 	margin-bottom: 27px;
 }
 .our-works .img-thumb {
-	margin-bottom: 14px;
+	margin-bottom: 15px;
 }
 .our-works .img-thumb img {
 	width: 100%;
 }
 .our-works .btn-default {
 	font-size: 13px;
-	padding: 6px 14px;
+	padding: 6px 15px;
 }
 .our-works .thumbnail p {
 	margin-bottom: 25px;
@@ -1462,7 +1462,7 @@ main-slider .tp-caption .btn.btn-default {
 	padding-right: 69px
 }
 .helping-child .btn-theme {
-	color: #FFA52C;
+	color: #FFD23C;
 }
 .helping-child .btn-theme:hover, .helping-child .btn-theme:focus {
 	color: #fff;
@@ -1624,7 +1624,7 @@ margin-top: 76px;
 .number-count {
 	height: 72px;
 	width: 72px;
-	background: #FFA52C;
+	background: #FFD23C;
 	line-height: 72px;
 	text-align: center;
 	display: inline-block;
@@ -1682,7 +1682,7 @@ aside.media h3, .text-widget h3 {
 	font-size: 22px;
 	font-weight: 700;
 	color: #26211d;
-	border-bottom: 1px solid #f2ede9;
+	border-bottom: 1px solid #f0ffff;
 	padding-bottom: 7px;
 	margin-bottom: 10px;
 }
@@ -1711,8 +1711,8 @@ aside.media p a:hover {
 	text-decoration: underline;
 }
 aside.media span {
-	font-size: 14px;
-	color: #FFA52C
+	font-size: 15px;
+	color: #FFD23C
 }
 aside ul {
 	overflow: hidden;
@@ -1728,12 +1728,12 @@ aside ul li {
 aside.media p.text {
 	line-height: 1.6;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 aside ul.archives li {
 	margin-top: 10px;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.2;
 	color: #727272;
 	margin-bottom: 15px;
@@ -1839,19 +1839,19 @@ aside ul.archives li span {
 	display: block
 }
 .faq .panel-group .panel + .panel {
-	margin-top: 14px;
+	margin-top: 15px;
 }
 .faq .panel-group .panel-heading + .panel-collapse > .panel-body {
 	border: none;
 	padding: 48px 18px;
-	background: #f2ede9;
+	background: #f0ffff;
 }
 .faq .panel-default > .panel-heading {
 	padding: 0;
-	background: #f2ede9;
+	background: #f0ffff;
 }
 .faq .panel-default > .panel-heading a {
-	padding: 13px 60px 14px 28px;
+	padding: 13px 60px 15px 28px;
 	color: #26211d;
 	position: relative;
 }
@@ -1970,7 +1970,7 @@ aside ul.archives li span {
 .process-step {
 	width: 126px;
 	height: 126px;
-	background: #FFA52C;
+	background: #FFD23C;
 	border-radius: 50%;
 	font-size: 26px;
 	color: #26211d;
@@ -2174,18 +2174,18 @@ aside ul.archives li span {
 	font-weight: 300;
 }
 .our-works .img-thumb {
-	margin-bottom: 14px;
+	margin-bottom: 15px;
 }
 .our-works .img-thumb img {
 	width: 100%;
 }
 .our-works .btn-default {
 	font-size: 13px;
-	padding: 6px 14px;
+	padding: 6px 15px;
 }
 .our-works .thumbnail p {
 	margin-bottom: 25px;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 /*our team*/
@@ -2194,7 +2194,7 @@ aside ul.archives li span {
 	margin: 0 0 37px;
 }
 .our-team .team-info {
-	margin: 0 0 14px
+	margin: 0 0 15px
 }
 .team-info h2 {
 	font-weight: 300;
@@ -2341,7 +2341,7 @@ aside ul.archives li span {
 	background: #FBF9F8;
 	border: 1px solid #E4E2DE;
 	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 }
 .btn-width small {
@@ -2426,7 +2426,7 @@ aside ul.archives li span {
 }
 .shoping .price del {
 	color: #95918d;
-	font-size: 14px;
+	font-size: 15px;
 	margin-right: 8px;
 }
 .shoping-row > .col-sm-4 {
@@ -2465,11 +2465,11 @@ aside ul.archives li span {
 	border-bottom: none;
 }
 .shoping-filter .progress {
-	background: #f2ede9;
+	background: #f0ffff;
 	border-radius: 8px;
 	box-shadow: none;
 	border: solid 1px #d4ccc6;
-	height: 14px;
+	height: 15px;
 	margin-bottom: 65px;
 }
 .shoping-filter .progress-bar.slide-ranger {
@@ -2490,11 +2490,11 @@ aside ul.archives li span {
 	outline: none;
 }
 body .ui-widget-content {
-	background: #f2ede9;
+	background: #f0ffff;
 	border-radius: 8px;
 	box-shadow: none;
 	border: solid 1px #d4ccc6;
-	height: 14px;
+	height: 15px;
 	margin-bottom: 28px;
 }
 body .ui-slider-horizontal .ui-slider-handle {
@@ -2511,7 +2511,7 @@ body .ui-widget-header {
 	color: #7c7c7c;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 15px;
 	border: none;
 	position: static;
 	display: inline-block;
@@ -2538,7 +2538,7 @@ body .ui-widget-header {
 	margin-top: 0;
 }
 .shoping .side-nav li a, .product-detail p {
-	font-size: 14px;
+	font-size: 15px;
 }
 .shoping aside .price {
 	font-size: 16px;
@@ -2547,7 +2547,7 @@ body .ui-widget-header {
 	font-size: 12px;
 }
 .product-detail-head {
-	border-bottom: solid 2px #f2ede9;
+	border-bottom: solid 2px #f0ffff;
 	margin-bottom: 28px;
 }
 .product-detail-head h2 {
@@ -2569,7 +2569,7 @@ body .ui-widget-header {
 .product-detail .tags {
 	display: block;
 	color: #26211d;
-	font-size: 14px;
+	font-size: 15px;
 	padding-bottom: 12px;
 }
 .product-quantity {
@@ -2577,7 +2577,7 @@ body .ui-widget-header {
 	margin-right: 10px;
 }
 .product-quantity input {
-	background-color: #FFA52C;
+	background-color: #FFD23C;
 	color: #26211d;
 	font-size: 18px;
 	border: none;
@@ -2624,7 +2624,7 @@ body .ui-widget-header {
 }
 .product-detail .nav-tabs li a {
 	border: none;
-	font-size: 14px;
+	font-size: 15px;
 	color: #a7a3a0;
 	font-weight: 700;
 	background-color: #fff;
@@ -2642,7 +2642,7 @@ body .ui-widget-header {
 }
 
 .shop-today {
-	background: #FFA52C;
+	background: #FFD23C;
 	padding: 65px 0;
 	text-align: center;
 }
@@ -2655,7 +2655,7 @@ body .ui-widget-header {
 }
 .shop-today p {
 	color: #26211d;
-	font-size: 14px;
+	font-size: 15px;
 	width: 55%;
 	margin: 0 auto 40px;
 }
@@ -2679,7 +2679,7 @@ body .ui-widget-header {
 	padding: 15px;
 }
 .AddtoCart .table > thead > tr > th {
-	font-size: 14px;
+	font-size: 15px;
 }
 .AddtoCart .table tbody td.product-image {
 	width: 10%;
@@ -2709,7 +2709,7 @@ body .ui-widget-header {
 }
 .AddtoCart .table.footer-table, .AddtoCart .table.footer-table td {
 	border-top: none;
-	font-size: 14px;
+	font-size: 15px;
 }
 .AddtoCart .table.footer-table td:first-child {
 	border-right: 2px solid #e7e2de;
@@ -2721,7 +2721,7 @@ body .ui-widget-header {
 	padding: 40px;
 }
 .AddtoCart .table td.one a.btn {
-	font-size: 14px;
+	font-size: 15px;
 	margin-right: 30px;
 	padding: 10px 20px;
 }
@@ -2815,7 +2815,7 @@ body .ui-widget-header {
 .checkout ul.nav-tabs li.active:after {
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
-	border-top: 8px solid #FFA52C;
+	border-top: 8px solid #FFD23C;
 	display: inline-block;
 	height: 0;
 	margin-left: 2px;
@@ -2828,7 +2828,7 @@ body .ui-widget-header {
 	content: "";
 }
 .checkout ul.nav-tabs li.active a {
-	background-color: #FFA52C;
+	background-color: #FFD23C;
 	color: #26211d;
 	border: none;
 }
@@ -2855,7 +2855,7 @@ body .ui-widget-header {
 	text-transform: uppercase;
 }
 .checkout .tab-content p {
-	font-size: 14px;
+	font-size: 15px;
 }
 .checkout .tab-content p a {
 	text-transform: uppercase;
@@ -2868,7 +2868,7 @@ body .ui-widget-header {
 	min-width: 206px;
 	padding: 16px 22px;
 	margin-right: 20px;
-	font-size: 14px;
+	font-size: 15px;
 }
 .col-small-left {
 	padding-left: 0;
@@ -2939,7 +2939,7 @@ body .ui-widget-header {
 }
 #confirmation .completed {
 	font-size: 52px;
-	color: #FFA52C;
+	color: #FFD23C;
 }
 
 #confirmation p, #confirmation span {
@@ -2971,7 +2971,7 @@ body .ui-widget-header {
 	color: #32302f;
 }
 #confirmation .track-btn {
-	font-size: 14px;
+	font-size: 15px;
 	text-transform: uppercase;
 	padding: 12px 33px;
 }
@@ -3049,7 +3049,7 @@ body .ui-widget-header {
 }
 .countdown-section {
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'latoblack';
 	color: rgb( 255, 255, 255 );
 	text-transform: uppercase;
@@ -3083,7 +3083,7 @@ body .ui-widget-header {
 	width: 100%;
 	height: 45px;
 	padding: 5px 21px;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: "Lato";
 	color: #202323;
 	line-height: 1.857;
@@ -3208,7 +3208,7 @@ body .ui-widget-header {
 	line-height: 1.5;
 }
 .btn-again {
-	font-size: 14px;
+	font-size: 15px;
 	color: #4e5258;
 	font-family: Georgia, sans-serif;
 	font-style: italic;
@@ -3354,7 +3354,7 @@ body .ui-widget-header {
 }
 
 .event_description p{
-	font-size: 14px;
+	font-size: 15px;
 	padding:19px 0;
 	margin:0;
 	color:#727272;
@@ -3455,7 +3455,7 @@ aside ul.tag_element li{
  	padding: 13px 26px;
  }
 .tag_element li a{
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
     text-transform: capitalize;
     color:#727272;

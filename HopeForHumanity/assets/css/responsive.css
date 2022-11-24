@@ -85,7 +85,7 @@
 	}
 	/*mission page*/
 	.processes {
-		background:url(../img/dotted-line.png) no-repeat scroll -1px 14px;
+		background:url(../img/dotted-line.png) no-repeat scroll -1px 15px;
 		background-size:100%;
 		
 	}
@@ -227,7 +227,7 @@ width:1444px;
 ------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar-default .navbar-nav > li {
-    padding: 0 14px 0 0;
+    padding: 0 15px 0 0;
 }
 	.header-second .navbar-default .navbar-nav > li{
 		padding-right:15px;
@@ -236,7 +236,7 @@ width:1444px;
     margin-right: 7px;
 }
 .header-second .header-second .touch-by-mail{
-	 margin: 0 14px 0 5px;
+	 margin: 0 15px 0 5px;
 }
 	/*banner Section*/
 	.banner-slider h2 {
@@ -247,7 +247,7 @@ width:1444px;
 	}
 	.banner-slider h2, .main-slider .banner-slider h2{
 		font-size: 21px;
-		margin-bottom: 14px;
+		margin-bottom: 15px;
 	}
 	.bottom-animation h2 strong {
 		font-size: 21px;
@@ -264,7 +264,7 @@ width:1444px;
 	}
 	.banner-slider p, .main-slider .banner-slider p {
 		line-height: 1.2;
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.header-third .nav-content:before {
 
@@ -640,7 +640,7 @@ aside  .shoping-filter > ul > li{
 		height:118px;
 	}
 	.banner-section .btn-link{
-		font-size:14px;
+		font-size:15px;
 		margin-left:10px;
 	}
 	.main-slider .tp-caption .btn.btn-default {
@@ -714,7 +714,7 @@ margin-top: 25px;
 	}
 	.navbar-default .navbar-nav > li > a {
 		font-size: 13px;
-		padding: 14px 15px 15px;
+		padding: 15px 15px 15px;
 	}
 
 	.header-third .nav-content:before {
@@ -769,8 +769,8 @@ margin-top: 25px;
 		font-size: 21px;
 	}
 	.main-slider .banner-slider h2 {
-		margin-bottom: 14px;
-		margin-top: 14px;
+		margin-bottom: 15px;
+		margin-top: 15px;
 	}
 	.main-slider .banner-summary, .main-slider .banner-heading {
 		width: 300px;
@@ -780,7 +780,7 @@ margin-top: 25px;
 	}
 	.banner-slider p, .main-slider .banner-slider p {
 		line-height: 1.2;
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.main-slider .banner-slider p {
 		padding-top: 20px;
@@ -796,7 +796,7 @@ margin-top: 25px;
 	}
 	.banner-slider p, .main-slider .banner-slider p {
 		line-height: 1.2;
-		font-size: 14px;
+		font-size: 15px;
 		padding-top: 0px;
 	}
 	.tp-caption .btn.btn.btn-default {
@@ -880,7 +880,7 @@ margin-top: 25px;
 	}
 	/*Help Section*/
 	.how-to-help .section-header {
-		margin:40px 0 14px;
+		margin:40px 0 15px;
 	}
 	.how-to-help {
 		padding-bottom: 30px;
@@ -1475,7 +1475,7 @@ aside ul.tag_element li{
 	/*Banner Section*/
 	.banner-slider p, .main-slider .banner-slider p {
 		line-height: 1.2;
-		font-size: 14px;
+		font-size: 15px;
 		padding-top: 10px;
 	}
 	.tp-caption .btn.btn.btn-default {
@@ -1486,7 +1486,7 @@ aside ul.tag_element li{
 	}
 	.banner-slider p, .main-slider .banner-slider p {
 		line-height: 1.2;
-		font-size: 14px;
+		font-size: 15px;
 		padding-top: 67px;
 	}
 	.tp-caption .btn.btn.btn-default {
@@ -1507,7 +1507,7 @@ aside ul.tag_element li{
 	}
 	.holders blockquote:after {
 		bottom: -33px;
-		left: 14px;
+		left: 15px;
 	}
 	.holders blockquote footer {
 		left: 24px;
@@ -1540,7 +1540,7 @@ aside ul.tag_element li{
 		height:118px;
 	}
 	.banner-section .btn-link{
-		font-size:14px;
+		font-size:15px;
 		margin-left:10px;
 		margin-top:100px;
 	}
